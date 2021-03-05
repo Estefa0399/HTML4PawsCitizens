@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <script src="https://d3js.org/d3.v6.min.js"></script>
-    
-        <script>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://d3js.org/d3.v6.min.js">
+    </script>
+
+    <script>
         var csvdata;
-        d3.dsv(";", "C:/Users/estef/OneDrive/Escritorio/Programacion/4PawsCitizens/HTML4PawsCitizens/data/pets-citizens.csv").then(
-        function(csvtemp){ csvdata = csvtemp; console.log(csvdata); }
-        );
-        </script>
-    </head>
-    <body>
-        
-    </body>
+        d3.dsv(";", "../data/pets-citizens.csv")
+            .then(function (data) {
+                console.log(data.length);
+            })
+            .catch(function (error) {
+                // handle error   
+            });
+    </script>
+</head>
+
+<body>
+    <div title>
+        <h1>Four Paws Citizens</h1>
+        <h2>Here you can the information about your pet :3</h2>
+
+
+    </div>
+
+    <div table>
+        <ul>
+           for
+       </ul> 
+    </div>
+
+
+
+</body>
+
 </html>
