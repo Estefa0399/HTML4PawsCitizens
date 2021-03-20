@@ -1,0 +1,71 @@
+body{
+	font-family: Times New Roman, Times, serif;
+	color: green;
+	font-size: 1.0rem;
+	line-height: 2.0em;
+	margin: 0
+	background: blue;
+}
+
+p {
+	margin-bottom: 1.6em;
+}
+
+.titulo{
+	margin-top: 80px;
+	margin-bottom: 20px;
+	line-height: 1.0em;
+	font-size: 2rem;
+	font-style: oblique;
+
+}
+
+header{
+	background: red;
+	color: darkgray;
+	padding: 2rem 0;
+	width: 100%;
+	position: fixed;
+	height: 17%;
+	left: 0;
+	top: 0;}
+
+}
+
+.header a{
+	color: white;
+	text-decoration: none;
+}
+
+.logo-navContainer{
+	display: flex;
+	
+	flex-wrap: wrap;
+
+}
+
+.logo{
+	height: 100px;
+	width: 100px;
+	margin-top: 100px;
+	margin:-2% ;
+	padding: 0%;
+
+}
+
+header .ul{
+	top: 10px;
+}
+
+h1{
+line-height: 1.3em;
+font-size: 2rem;
+
+}
+
+.container{
+	width: 85%;
+	margin: 0 auto;
+	max-width: 850px;
+	background: color.red
+}
